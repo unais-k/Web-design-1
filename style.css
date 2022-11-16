@@ -1,0 +1,488 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 90px;
+}
+.top-nav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: #fff;
+}
+ul.menu {
+    list-style-type: none;
+    width: 1200px;
+    float: right;
+    margin: auto;
+}
+li {
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+    padding: 0 13px;
+    color: black;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+.log {
+    color: #fff;
+    font-size: 14px;
+    background-color: #0096ff;
+    border-radius: 30px;
+    margin-left: 30px;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo-img {
+    height: 90px;
+    margin-left: 150px;
+    border-radius: 3px;
+    float: left;
+}
+#id {
+    float: right;
+    margin-top: 25px;
+    color: rgb(37, 37, 37);
+    font-size: 26px;
+    margin-right: 180px;
+}
+h2 {
+    color: #00337e;
+}
+.banner {
+    width: 100%;
+}
+.register {
+    width: 80%;
+    height: 230px;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: #e7f4ff;
+}
+.form-control input {
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 3px;
+}
+.form-control {
+    text-align: center;
+    margin-bottom: 0px;
+    margin: 1px;
+}
+.login {
+    text-decoration: none;
+    color: #008aff;
+    font-size: 13px;
+}
+.form-control button {
+    color: #fff;
+    font-size: 16px;
+    background-color: #0096ff;
+    border-radius: 30px;
+    margin: 10px;
+    border: 0;
+    padding: 10px 55px 10px 55px;
+}
+#p1 {
+    font-weight: bold;
+    font-size: 12px;
+}
+.form-control h2 {
+    margin-bottom: -6px;
+    font-size: 20px;
+}
+.rewards {
+    display: flex;
+}
+.features {
+    height: 170px;
+    width: 550px;
+    margin: 20px 5px 30px 200px;
+    display: flex;
+    vertical-align: baseline;
+    align-items: center;
+}
+.feature-img {
+    padding: 10px 30px 10px 20px;
+}
+.img1 {
+    height: 100px;
+    width: 100px;
+}
+.img2 {
+    height: auto;
+    width: 80px;
+}
+.img4 {
+    height: auto;
+    width: 109px;
+}
+.features2 {
+    height: 170px;
+    width: 550px;
+    margin: 20px 0 30px 0;
+    float: right;
+    display: flex;
+    vertical-align: baseline;
+    align-items: center;
+}
+.schedule {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-top: 10px;
+    background-color: #e7f4ff;
+}
+.inner-schedule {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.timing {
+    height: 170px;
+    width: 400px;
+    margin: 10px 5px 30px 70px;
+    display: flex;
+    vertical-align: baseline;
+    align-items: center;
+}
+.timing2 {
+    height: 170px;
+    width: 400px;
+    margin: 10px 0 30px 0;
+    float: right;
+    margin-left: 200px;
+    display: flex;
+    vertical-align: baseline;
+    align-items: center;
+}
+.arrow-img {
+    margin-right: 30px;
+}
+.arrow {
+    height: auto;
+    width: 50px;
+}
+.timing-p p {
+    margin-top: -13px;
+}
+.result-date {
+    height: 240px;
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin: auto;
+}
+.result-date p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #1a4581;
+    position: relative;
+    text-align: center;
+}
+.result-date h2 {
+    font-size: 38px;
+    position: relative;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #00337e;
+    text-align: center;
+}
+.winners {
+    width: 80%;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    background-color: #e7f4ff;
+}
+.top-win {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    text-align: left;
+}
+.leftwin {
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.rightwin {
+    height: 90%;
+    width: 80%;
+    margin: auto;
+}
+.rightwin img {
+    width: 70%;
+    margin: 110px;
+    margin-top: 0;
+    height: auto;
+}
+.win-arrow {
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+}
+#anthe {
+    margin-left: 10px;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.bottom-win {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    text-align: left;
+}
+#nasa {
+    margin-left: 10px;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.pack-card {
+    padding-top: 80px;
+    height: auto;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-content: center;
+}
+.win-card {
+    height: 200px;
+    width: 176px;
+}
+.card1 {
+    margin: 15px;
+    text-align: center;
+    color: #00aeef;
+}
+.analyser {
+    text-align: center;
+    margin: auto;
+}
+.hall-of-fame {
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    padding-top: 70px;
+    background-color: #e7f4ff;
+    border-radius: 40px;
+}
+.inner-fame {
+    margin: auto;
+    height: 90%;
+    width: 90%;
+}
+.text-top {
+    height: 50px;
+    display: flex;
+    width: 100%;
+}
+.icon-img1 {
+    width: 30px;
+    height: auto;
+}
+#fame {
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+ul#dot {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+.air-top1 {
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.air-top {
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.air-top12 {
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.air-top2 {
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.img-crd1 {
+    margin: 13px;
+}
+.air-name1 {
+    text-align: center;
+}
+.top-name {
+    font-size: 16px;
+}
+.AIR1 {
+    font-weight: lighter;
+    font-size: 14px;
+}
+.bottom {
+    width: 80%;
+    height: 720px;
+    margin: auto;
+    padding-top: 20px;
+}
+.heading {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img-arw {
+    width: 30px;
+    height: auto;
+    float: left;
+}
+.head-freq {
+    font-size: 40px;
+    margin: auto;
+    margin-right: 200px;
+    width: 80%;
+    box-sizing: border-box;
+}
+.head-t {
+    display: flex;
+    height: 100px;
+    margin-top: 40px;
+    width: 100%;
+}
+.head-t1 {
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    width: 100%;
+}
+.head-t2 {
+    display: flex;
+    height: 100px;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.icon-img h6 {
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.icon-img {
+    height: 40px;
+}
+.both {
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+}
+.both p {
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 40px;
+    line-height: 1.4;
+}
+.icon-img {
+    display: flex;
+}
+.blue {
+    width: 30px;
+    height: 39px;
+    float: left;
+}
+.coustm {
+    height: 100px;
+    width: 60%;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.team {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #00337e;
+    height: 100px;
+}
+.phn {
+    height: 50px;
+    width: 50%;
+}
+.phn p {
+    font-size: 28px;
+    float: left;
+    margin: 0;
+}
+.support {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.support p {
+    font-size: 28px;
+    float: left;
+    margin: 0;
+}
+.call {
+    width: 30px;
+    height: 31px;
+    margin-right: 10px;
+    float: left;
+}
+.mail {
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 8px;
+    height: 22px;
+}
+.end {
+    height: 38px;
+    background-color: black;
+    color: #fff;
+}
+.ending {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.ending p {
+    padding-top: 7px;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 7px;
+}
